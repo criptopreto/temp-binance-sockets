@@ -1,3 +1,3 @@
-python -m venv virtualenv
-sh "./virtualenv/Scripts/activate.sh"
+virtualenv -p python3 virtualenv
+. virtualenv/bin/activate
 ls
